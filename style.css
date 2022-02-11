@@ -1,0 +1,148 @@
+body {
+background: url(https://a-static.mlcdn.com.br/1500x1500/papel-de-parede-adesivo-degrade-roxo-azul-e-verde-n05177-rolo-de-058x300-papel-na-parede/papelnaparede1/n05171/67942023a161afe96e29688be212b645.jpg);
+background-position:50% 50%;
+background-size:1000%;
+font-family: 'Work Sans', sans-serif;
+ color:#190653;
+ }
+ 
+ h2 {color:#190653;
+ text-align: center;
+ font-size:28px;
+ }
+ 
+ #simple-link {
+ color: #190653;
+ text-decoration-style: dotted;
+ font-size:28px;
+ font-weight:bold;
+ transition: color 0.1s ease;
+ }
+ #simple-link:hover {
+ color: #063E53;
+ text-decoration-style: wavy;
+ }
+ 
+ #text-spacing{
+ line-height:1px;
+ font-size:27px;
+ font-weight:600;}
+ 
+ h3{
+ font-size:34px;
+ text-shadow: .1em .1em 0 hsl(200 90% 30%);
+ color: #D7CAFF;
+ }
+ 
+ ol{
+ font-size:25px;
+ }
+ 
+ p {
+ text-align:justify;
+ font-size:19px;
+ font
+ }
+ 
+ .list-inline {
+ list-style: none; 
+ padding-left: 0px; 
+ }
+ .list-inline li{
+display:inline;
+padding:10px;
+font-size:70px;
+}
+.list-inline i{
+color:#7678E6;
+ transition: color 0.7s ease;
+ }
+ 
+.list-inline i:hover {
+ color:#6BE1FF;
+}
+
+ .photo-background {
+ font-size:40px;;
+ line-height: 70px;
+ margin: 0;
+ font-weight: 900;
+ background: url(https://i.pinimg.com/736x/0d/32/d8/0d32d83f393145a72037355d8bc1c369.jpg);
+ background-size: 40%;
+ background-position: 50% 50%;
+ -webkit-background-clip: text;
+ color: rgba(0,0,0,0.08);
+ animation: zoomout 30s ease 500ms forwards;
+ }
+ 
+ @keyframes zoomout {
+ from {
+ background-size: 40%;
+ }
+ to {
+ background-size: 10%;
+ }
+ }
+
+.container {
+  width: 1000px; 
+  margin: auto auto; 
+}
+
+.white-box{
+margin: 10px 10px;
+background: rgba(240,212,184,.5);                         
+padding: 30px 30px 30px 30px;                             
+border-radius: 4px;                        
+box-shadow: 5 10px 30px rgba(0,0,0,.3);    
+text-align:center;
+}
+
+.transparent-box{
+margin: 10px 10px;
+background: rgba(0,0,0,0);                         
+padding: 30px 30px 30px 30px;
+text-align:center;
+}
+
+#justified-list{
+text-align:justify;
+}
+
+#btn{
+background-color:#7678E6;
+color:rgb(240,212,184);
+text-decoration: none;
+padding:10px 15px;
+border-radius: 4px;  
+line-height:35px;
+font-size:19px;
+ transition: color 0.7s ease;
+ }
+ #btn:hover{
+ background-color: #6BE1FF;
+ color:rgb(240,212,184);
+ text-decoration: none;
+ }
+ 
+ .picture-size{
+ height:300px;
+ width:500px;
+ border-radius: 50px;
+ padding:0px 350px;
+ }
+ 
+ .image-border
+  {border-radius: 5%;
+  overflow: hidden;
+   height: 300px; 
+   width:225px;  
+}
+ 
+ img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ }
+ 
+ 
